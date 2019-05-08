@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, TextInput, View, Button } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 
 const listItem = (props) => (
-  <View style={styles.listItem}>
+  <View style={styles.listItem} /* onPress={props.onItemPressed} */>
     <Text>{props.placeName}</Text>
   </View>
 );
